@@ -1,7 +1,7 @@
 # Armstrong Numbers  
 
 **Difficulty:** Easy  
-**Accuracy:** 49.88%  
+**Accuracy:** 49.88 %  
 **Submissions:** 165K+  
 **Points:** 2  
 
