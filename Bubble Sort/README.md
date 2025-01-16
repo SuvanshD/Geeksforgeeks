@@ -5,7 +5,7 @@
 **Submissions:** 256K+  
 **Points:** 2  
 
----
+--
 
 ## Problem Description  
 Given an array \( \text{arr}[] \), sort the array using the **Bubble Sort** algorithm.  
