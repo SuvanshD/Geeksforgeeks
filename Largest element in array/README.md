@@ -5,7 +5,7 @@
 **Submissions:** 400K+  
 **Points:** 1  
 
----
+--
 
 ## Problem Description  
 Given an array `arr[]`, the task is to find the largest element in the array and return it.  
