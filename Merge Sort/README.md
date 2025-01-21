@@ -5,7 +5,7 @@
 **Submissions:** 218K+  
 **Points:** 4  
 
----
+--
 
 ## Problem Description  
 Given an array `arr[]`, its starting position `l` and its ending position `r`, sort the array using the **Merge Sort** algorithm.  
