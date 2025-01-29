@@ -1,5 +1,6 @@
 # Union of Two Sorted Arrays with Duplicates  
 
+
 **Difficulty:** Medium  
 **Accuracy:** 31.39%  
 **Submissions:** 395K+  
