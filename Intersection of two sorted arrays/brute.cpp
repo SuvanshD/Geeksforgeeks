@@ -12,34 +12,6 @@ class Solution {
     vector<int> intersection(vector<int> &arr1, vector<int> &arr2) {
         // Your code here
         
-        // set <int> final;
-        // int i=0;
-        // int j=0;
-        
-        // while (i<arr1.size() and j<arr2.size())
-        // {
-        //     if(arr1[i]<arr2[j])
-        //     {
-        //         i++;
-        //     }
-        //     else if(arr1[i]>arr2[j])
-        //     {
-        //         j++;
-        //     }
-        //     else
-        //     {
-                
-        //         final.insert(arr1[i]);
-        //         i++;
-        //         j++;
-                
-        //     }
-        // }
-    
-        // vector <int> v(final.begin(),final.end());
-        // return v;
-        
-        
         int n1=arr1.size();
         int n2=arr2.size();
         set <int> sets;
