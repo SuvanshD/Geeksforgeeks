@@ -9,27 +9,29 @@ class Solution {
     int longestSubarray(vector<int>& arr, int k) {
         // code here
         
-        int n = arr.size();
-        
-        int len = 0;
-        
-        int s;
-        
-        for(int i =0;i<n;i++)
+        map <int,int> preSumMap;
+        int sum = 0;
+        int maxLen = 0;
+        for(int i=0;i<arr.size();i++)
         {
-            s = 0;
-            for(int j=i;j<n;j++)
+            sum+=arr[i];
+            if(sum == k)
             {
-                s+=arr[j];
-                
-                if(s==k) 
-                {
-                   len = max(len,j-i+1); 
-                }
+                maxLen = max(maxLen,i+1);
+            }
+            int rem = sum - k;
+            if(preSumMap.find(rem) != preSumMap.end())
+            {
+                int len = i - preSumMap[rem];
+                maxLen = max(maxLen,len);
+            }
+            if( preSumMap.find(sum) == preSumMap.end() )
+            {
+                preSumMap[sum] = i;
             }
         }
         
-        return len;
+        return maxLen;
     }
 };
 
